@@ -7,7 +7,7 @@ spring:
     config:
       uri: http://localhost:8888
       name: service-hi-7011
-      profile: dev
+      profile: prod
       label: master
 #eureka:
 #  client:

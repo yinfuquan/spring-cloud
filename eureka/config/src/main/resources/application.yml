@@ -1,6 +1,3 @@
-server:
-  port: 7001
-
 spring:
   application:
     name: config-server
@@ -8,7 +5,15 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/yinfuquan/spring-cloud.git
-          search-paths: config
-          username: yinfuquan  #账号密码写真实的快一些我觉得，不使用也能访问有点慢
+          uri: https://github.com/yinfuquan/config-git.git
+          search-paths: dev
+          username: yinfuquan
           password: q568114162
+      label: master
+server:
+  port: 8888
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:7022/eureka/
