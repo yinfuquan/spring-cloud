@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/eureka.iml" filepath="$PROJECT_DIR$/eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-7022/eureka-7022.iml" filepath="$PROJECT_DIR$/eureka-7022/eureka-7022.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feign-7031/feign-7031.iml" filepath="$PROJECT_DIR$/feign-7031/feign-7031.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-hi-7011/service-hi-7011.iml" filepath="$PROJECT_DIR$/service-hi-7011/service-hi-7011.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-hi-7012/service-hi-7012.iml" filepath="$PROJECT_DIR$/service-hi-7012/service-hi-7012.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuul-7041/zuul-7041.iml" filepath="$PROJECT_DIR$/zuul-7041/zuul-7041.iml" />
+    </modules>
+  </component>
+</project>
