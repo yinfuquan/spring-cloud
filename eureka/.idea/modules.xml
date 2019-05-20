@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/config/config.iml" filepath="$PROJECT_DIR$/config/config.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka.iml" filepath="$PROJECT_DIR$/eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-7022/eureka-7022.iml" filepath="$PROJECT_DIR$/eureka-7022/eureka-7022.iml" />
       <module fileurl="file://$PROJECT_DIR$/feign-7031/feign-7031.iml" filepath="$PROJECT_DIR$/feign-7031/feign-7031.iml" />
