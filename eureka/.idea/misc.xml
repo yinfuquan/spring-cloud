@@ -10,6 +10,10 @@
         <option value="$PROJECT_DIR$/feign-7031/pom.xml" />
         <option value="$PROJECT_DIR$/zuul-7041/pom.xml" />
         <option value="$PROJECT_DIR$/config/pom.xml" />
+        <option value="$PROJECT_DIR$/zipkin/pom.xml" />
+        <option value="$PROJECT_DIR$/redis-7051/pom.xml" />
+        <option value="$PROJECT_DIR$/common-utils/pom.xml" />
+        <option value="$PROJECT_DIR$/redis-7061/pom.xml" />
       </list>
     </option>
   </component>

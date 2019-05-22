@@ -11,3 +11,6 @@ spring:
 feign:
   hystrix:
     enabled: true
+
+  zipkin:
+    base-url: http://localhost:9411

@@ -1,0 +1,25 @@
+server:
+  port: 7061
+spring:
+  application:
+    name: service-redis
+  redis:
+    database:  0
+    host:  192.168.220.154
+    port:  6379
+    timeout: 20000
+    lettuce:
+      pool:
+        max-active: 8
+        max-idle: 8
+        min-idle: 0
+        max-wait: -1
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:7022/eureka/
+
+
+  zipkin:
+    base-url: http://localhost:9411
