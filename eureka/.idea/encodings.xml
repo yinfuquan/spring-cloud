@@ -2,14 +2,16 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common-utils" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/config" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-7022" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/feign-7031" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/redis-7051" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mq" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/redis-7061" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-hi-7011" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-hi-7012" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tkmybatis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zipkin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zuul-7041" charset="UTF-8" />
   </component>

@@ -7,6 +7,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import javax.servlet.http.HttpServletRequest;
+
 /**
  * Created by IntelliJ IDEA.
  * User: Administrator
@@ -21,7 +23,7 @@ public class Hictl {
     private String port;
     @RequestMapping(value = {"/","hi"})
     @ResponseBody
-    public  String sayHi(@RequestParam(value = "name") String name){
+    public  String sayHi(@RequestParam(value = "name") String name, HttpServletRequest request){
 
         return "hi:"+name+",port:"+port;
     }
